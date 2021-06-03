@@ -82,9 +82,9 @@ public class MainActivity extends AppCompatActivity {
         // button in the callback onRequestPermissionsResult
 
 
-        spikeDuration = 64;
-        spikeDelay = 64;
-        letterDelay = 200;
+//        spikeDuration = 64;
+//        spikeDelay = 64;
+        letterDelay = 100;
         wordDelay = 600;
 
         populatePatters();
@@ -292,9 +292,6 @@ public class MainActivity extends AppCompatActivity {
                 }
 
 
-
-                //blessedNeo.vibrateMotors(motorCommands);
-
                 //blessedNeo.vibrateMotors(new int[] {0,0,0,0});
 
                 // Letter A is 1101 in binary, "bz-bz...bz"
@@ -355,23 +352,8 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-
-
             vibrating = false;
             blessedNeo.stopMotors();
-
-//            if (! vibrating) {
-//                //blessedNeo.resumeDeviceAlgorithm();
-//                // When disconnecting: it is possible for the device to process the disconnection request
-//                // prior to processing the request to resume the onboard algorithm, which causes the last
-//                // sent motor command to "stick"
-//                try {
-//                    Thread.sleep(200);
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-
 
 
         }
