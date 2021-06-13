@@ -1,3 +1,56 @@
 <resources>
-    <string name="app_name">Haptapp</string>
+    <string name="app_name">Haptapp Uploader</string>
+    <string name="score">Score</string>
+    <string name="streak">Streak</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="durations_header">Speeds and delays</string>
+    <string name="tap_duration">Tap duration</string>
+    <string name="tap_delay">Delay between taps</string>
+    <string name="letter_delay">Delay between letters</string>
+    <string name="word_delay">Delay between words</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    <!-- Levels -->
+    <string name="level_1_desc">Congrats!
+
+    You have reached level two.
+
+    Each time you a give a correct answer you get a score point and cookie.
+
+    Each level will require a specific amount of cookies to pass. But be careful, if you make a mistake, you will loose all your cookies and will have to start over.
+
+    Good luck!!</string>
+    <string name="play_pattern_button_label">Play pattern</string>
+    <string name="single_tap_button_label">I felt a single tap</string>
+    <string name="double_tap_button_label">I felt a double tap</string>
+    <string name="starting_point_desc" > Welcome!
+
+    This game will upload a digital operating system for biological brains. The system will allow you to send and receive digital data, store it in your spatial memory and perform spatial calculations with no efforts.
+
+    Each level will have several buttons - the first one will play a vibration pattern. Feel free to press this button as many times as you need, because you need to get familiar with the rhythm.
+
+    In thus first level, you will learn the difference between a single tap, and a double tap.
+        Press the button below to play the rhythm, and then choose the correct answer.</string>
+
+    <string name="grayed_out_star">Grayed out star</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="dialog_fire_missiles">Are you sure you want to remove all the progress? This can\'t be undone!</string>
+    <string name="connect_neosensory_buzz">Connect Neosensory Buzz</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="sound_effects">Sound effects</string>
+    <string name="haptapp">Haptapp</string>
+
+    <string name="tap_sound_desc">If you want to learn reading from haptic feedback only, it\'s better to disable tap sounds.</string>
+    <string name="neosensory_setting_description">This app is compatible with <a href="https://neosensory.com/">Neosensory Buzz</a> wristband. Click the button below to connect one.</string>
+    <string name="phone_vibration_desc">You may want to disable phone vibrations when using other haptic devices.</string>
 </resources>

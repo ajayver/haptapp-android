@@ -1,0 +1,15 @@
+{
+  "title": "Lesson 3: The single signal",
+  "teaser": "The unary nature of haptapp",
+  "desc": "Great!\n\nIt seems like you've got a good grasp on the game's mechanics! Let's talk about terminology. Haptapp is an unary communication method, meaning that it is a language with only one letter/signal. And because there is only one kind of signal, its name doesn't really matter. Let's call it \"1\" for now. We will also refer to each signal as \"tap\".",
+  "patterns": {
+    "1": "I felt a single tap (1)",
+    "11": "I felt a double tap (11)",
+    "111": "I felt a triple tap (111)"
+  },
+  "correctAnswer": "random",
+  "requiredStreak": 10,
+  "failText": "Please try again!",
+  "tapDuration": 64,
+  "tapDelay": 64
+}

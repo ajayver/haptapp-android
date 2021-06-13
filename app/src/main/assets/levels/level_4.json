@@ -1,0 +1,16 @@
+{
+  "title": "Lesson 5: Zeros",
+  "teaser": "Delay notation",
+  "desc": "Good work!\n\nDelays are essential in haptapp. The taps themselves do not carry any useful information - they only slice the time into measurable chunks that actually carry the meaning. From now on, we will represent delays as zeros. There will be no rhythmical patterns with more than one zero for now. Try practicing this notation below.",
+  "patterns": {
+    "1011": "I felt 1011",
+    "1101": "I felt 1101",
+    "10101": "I felt 10101",
+    "101": "I felt 101"
+  },
+  "correctAnswer": "random",
+  "failText": "Please try again!",
+  "requiredStreak": 10,
+  "tapDuration": 64,
+  "tapDelay": 64
+}

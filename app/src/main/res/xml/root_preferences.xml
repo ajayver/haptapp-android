@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/durations_header">
+
+<!--        <SeekBarPreference-->
+<!--            app:key="app.hapt.tap_duration"-->
+<!--            app:title="@string/tap_duration"-->
+<!--            app:useSimpleSummaryProvider="true"-->
+<!--            android:max="320"-->
+<!--            android:min="16"-->
+<!--            app:defaultValue="160"-->
+<!--            app:showSeekBarValue="true"-->
+<!--            app:seekBarIncrement="16"-->
+<!--            app:updatesContinuously="true"/>-->
+
+<!--        <SeekBarPreference-->
+<!--            app:key="app.hapt.tap_delay"-->
+<!--            app:title="@string/tap_delay"-->
+<!--            app:useSimpleSummaryProvider="true"-->
+<!--            android:max="320"-->
+<!--            android:min="16"-->
+<!--            app:defaultValue="160"-->
+<!--            app:showSeekBarValue="true"-->
+<!--            app:seekBarIncrement="16"-->
+<!--            app:updatesContinuously="true"/>-->
+
+        <Preference
+            android:title="Reset Progress"
+            android:key="app.hapt.reset_progress"
+            android:summary="Reset your progress in the game"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

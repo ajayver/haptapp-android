@@ -1,0 +1,16 @@
+{
+  "title": "Lesson 6: Rhythm names",
+  "teaser": "Here come the letters",
+  "desc": "While there are not that many ways of placing taps and delays in a sequence, each has a unique \"shape\" that we will try to memorize. From now on, each sequence will be accompanied with a letter, so you can easily refer to and recognize rhythms.",
+  "patterns": {
+    "11": "E (11)",
+    "101": "T (101)",
+    "1101": "A (1101)",
+    "1011": "N (1011)"
+  },
+  "correctAnswer": "random",
+  "failText": "Please try again!",
+  "requiredStreak": 10,
+  "tapDuration": 64,
+  "tapDelay": 64
+}

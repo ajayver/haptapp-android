@@ -1,0 +1,15 @@
+{
+  "title": "Lesson 2: Multiple rounds",
+  "teaser": "It's all about repetition!",
+  "desc": "Good job!\nYou have made it to level 2. This level will require you to make 10 correct choices in a row. You will feel a quick yes/no haptic feedback after each attempt and the next set of vibrations will play automatically. Try playing this level and note the bar indicating your progress.",
+  "patterns": {
+    "1": "I felt a single tap",
+    "11": "I felt a double tap",
+    "111": "I felt a triple tap"
+  },
+  "correctAnswer": "random",
+  "failText": "Please try again!",
+  "requiredStreak": 10,
+  "tapDuration": 64,
+  "tapDelay": 64
+}

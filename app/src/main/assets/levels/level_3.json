@@ -1,0 +1,15 @@
+{
+  "title": "Lesson 4: Tap sequences",
+  "teaser": "Here come the delays",
+  "desc": "Let' try to combine multiple unary taps into a single sequence with some delay. Can you recognise those correctly?",
+  "patterns": {
+    "1011": "I felt 1, then 11",
+    "1101": "I felt 11, then 1",
+    "101": "I felt 1, then another 1"
+  },
+  "requiredStreak": "10",
+  "correctAnswer": "random",
+  "failText": "Please try again!",
+  "tapDuration": 64,
+  "tapDelay": 64
+}

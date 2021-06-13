@@ -1,0 +1,14 @@
+{
+  "title": "Lesson 1: Welcome!",
+  "teaser": "Course introduction.",
+  "desc": "Welcome!\n\nThis course will teach you to receive meaningful data through haptic feedback. The course is organized as a game with multiple levels in which you will need to feel the feedback from your device and press the most suitable button below. You can replay the vibrations as many times as you need before you make your guess. Try it!",
+  "patterns": {
+    "1": "I felt a single tap",
+    "11": "I felt a double tap"
+  },
+  "correctAnswer": "11",
+  "failText": "Please try again!",
+  "requiredStreak": 1,
+  "tapDuration": 64,
+  "tapDelay": 64
+}
