@@ -2,13 +2,13 @@
     <!-- Base application theme. -->
     <style name="Theme.Haptapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/main</item>
-        <item name="colorPrimaryVariant">@color/main</item>
-        <item name="colorOnPrimary">@color/yellow</item>
+        <item name="colorPrimary">@color/darkGray</item>
+        <item name="colorPrimaryVariant">@color/lightGray</item>
+        <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/light</item>
         <item name="colorSecondaryVariant">@color/light</item>
-        <item name="colorOnSecondary">@color/red</item>
+        <item name="colorOnSecondary">@color/darkGray</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->

@@ -30,16 +30,6 @@
 
     Good luck!!</string>
     <string name="play_pattern_button_label">Play pattern</string>
-    <string name="single_tap_button_label">I felt a single tap</string>
-    <string name="double_tap_button_label">I felt a double tap</string>
-    <string name="starting_point_desc" > Welcome!
-
-    This game will upload a digital operating system for biological brains. The system will allow you to send and receive digital data, store it in your spatial memory and perform spatial calculations with no efforts.
-
-    Each level will have several buttons - the first one will play a vibration pattern. Feel free to press this button as many times as you need, because you need to get familiar with the rhythm.
-
-    In thus first level, you will learn the difference between a single tap, and a double tap.
-        Press the button below to play the rhythm, and then choose the correct answer.</string>
 
     <string name="grayed_out_star">Grayed out star</string>
     <string name="cancel">Cancel</string>
@@ -51,6 +41,6 @@
     <string name="haptapp">Haptapp</string>
 
     <string name="tap_sound_desc">If you want to learn reading from haptic feedback only, it\'s better to disable tap sounds.</string>
-    <string name="neosensory_setting_description">This app is compatible with <a href="https://neosensory.com/">Neosensory Buzz</a> wristband. Click the button below to connect one.</string>
+    <string name="neosensory_setting_description">This app was inspired by <a href="https://neosensory.com/">Neosensory</a> devices. Click the button above to connect one.</string>
     <string name="phone_vibration_desc">You may want to disable phone vibrations when using other haptic devices.</string>
 </resources>
