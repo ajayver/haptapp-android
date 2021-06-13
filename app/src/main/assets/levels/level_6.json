@@ -1,0 +1,16 @@
+{
+  "title": "To be continued...",
+  "teaser": "More levels to come soon!",
+  "desc": "Please share any feedback with ajayver.com@gmail.com",
+  "patterns": {
+    "11": "E (11)",
+    "101": "T (101)",
+    "1101": "A (1101)",
+    "1011": "N (1011)"
+  },
+  "correctAnswer": "random",
+  "failText": "Please try again!",
+  "requiredStreak": 999,
+  "tapDuration": 16,
+  "tapDelay": 16
+}
