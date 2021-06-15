@@ -131,14 +131,21 @@ public class Phone {
             }
 
             if (sound != 0) {
-                soundPool.play(sound,1,1,1,0,1);
+                soundPool.play(sound,1,1,0,0,1);
             }
         }
 
     }
 
     public static void playTap() {
-        soundPool.play(tapSound,1,1,1,0,1);
+        Thread thread = new Thread(new Runnable(){
+            @Override
+            public void run(){
+                soundPool.play(tapSound,1,1,0,0,1);
+            }
+        });
+        thread.start();
+
     }
 
 }
