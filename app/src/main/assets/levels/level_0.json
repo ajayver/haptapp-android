@@ -1,14 +1,15 @@
 {
-  "title": "Lesson 1: Welcome!",
-  "teaser": "Course introduction.",
-  "desc": "Welcome!\n\nThis course will teach you to receive meaningful data through haptic feedback. The course is organized as a game with multiple levels in which you will need to feel the feedback from your device and press the most suitable button below. You can replay the vibrations as many times as you need before you make your guess. Try it!",
+  "title": "Level 1",
+  "teaser": "The Haptapp Palace",
+  "desc": "You are standing in front of a door to a magnificent huge floating palace somewhere among the clouds. Suddenly, a floating ball of energy approaches you: \n\n“Greetings, my friend. I am your guide to the Haptapp palace and I will be showing you around. Unlike the real palaces, this one exists only in the hippocampus area of your brain. Hippocampus is responsible for spatial memory and it is much more powerful than any other kinds of memory in the human brain.  \n\nEach room in this palace was designed to be unusual and unexpected to be memorable, so please don't be surprised by all the weirdness inside - it's done for a purpose. Before we enter the palace, you will need to pass a small test.  \n\nPlease press the play button below and count how many vibrations you felt. Click the corresponding answer button and you will hear the next round of vibrations. Continue guessing until the progress bar reaches the end.”",
   "patterns": {
     "1": "I felt a single tap",
-    "11": "I felt a double tap"
+    "11": "I felt a double tap",
+    "111": "I felt a triple tap"
   },
-  "correctAnswer": "11",
+  "correctAnswer": "random",
   "failText": "Please try again!",
-  "requiredStreak": 1,
-  "tapDuration": 64,
-  "tapDelay": 64
+  "requiredStreak": 10,
+  "tapDuration": 128,
+  "tapDelay": 128
 }

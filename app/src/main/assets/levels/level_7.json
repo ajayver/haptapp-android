@@ -3,14 +3,14 @@
   "teaser": "Impossible to reach!",
   "desc": "Please share any feedback with ajayver.com@gmail.com",
   "patterns": {
-    "11": "E (11)",
-    "101": "T (101)",
-    "1101": "A (1101)",
-    "1011": "N (1011)"
+    "111100110011011100110111001010101": "Hello",
+    "1010110010101010010101010010111": "Good",
+    "101010011010010101001101": "Mama",
+    "10111100101101010011": "Bye"
   },
   "correctAnswer": "random",
   "failText": "Please try again!",
   "requiredStreak": 999,
-  "tapDuration": 16,
-  "tapDelay": 16
+  "tapDuration": 32,
+  "tapDelay": 32
 }

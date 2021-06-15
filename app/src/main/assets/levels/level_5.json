@@ -1,16 +1,16 @@
 {
-  "title": "Lesson 6: Rhythm names",
-  "teaser": "Here come the letters",
-  "desc": "While there are not that many ways of placing taps and delays in a sequence, each has a unique \"shape\" that we will try to memorize. From now on, each sequence will be accompanied with a letter, so you can easily refer to and recognize rhythms.",
+  "title": "Level 6",
+  "teaser": "Freezing gravity",
+  "desc": "“Let’s look into more rooms, shall we?” playfully said the energy ball and disabled the time again. You pass the always clean and empty Okay room and enter the Embarrassed Elephant room on the left. This room has two exit doors same as any other room in this palace. And these doors work in the same way – the left one is open first, the right one is opened after a brief delay.  \n\n“Let’s check the door on our left first,” the guide opens the squeaking door and you can see how clouds of cold air are coming from it like it was some kind of a freezer. You step inside the room and indeed, it’s is freezing inside. The floor is made of slippery ice and you can see some kind of a dome in the middle of the room.  \n\n“That’s our icy igloo room,” the guide says. \n\n“Igloo is a native dome house made of ice. It’s amazing that one can build something like this out of water! It’s freezing! Let’s get back to the Elephant room!” \n\nBack in the Elephant’s room you quickly warm your hands back and head toward the second door. Once you enter it you feel like have lost some weight. Apparently, this room has a lower gravity! In the middle of the room, you see an Albino Astronaut that salutes you.  \n\n“I wish I could salute back to this guy, but unfortunately, I have no hands,” said the ball while trying to stretch itself. \n\nThat was quite a long level! Let’s practice the room we learned in it! ",
   "patterns": {
-    "11": "E (11)",
-    "101": "T (101)",
-    "1101": "A (1101)",
-    "1011": "N (1011)"
+    "111": "Icy Igloo",
+    "101": "Tiger's Treasure",
+    "11": "Embarrassed Elephant",
+    "1101": "Albino Astronaut"
   },
   "correctAnswer": "random",
   "failText": "Please try again!",
   "requiredStreak": 10,
-  "tapDuration": 64,
-  "tapDelay": 64
+  "tapDuration": 128,
+  "tapDelay": 128
 }

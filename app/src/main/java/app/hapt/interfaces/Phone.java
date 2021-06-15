@@ -42,6 +42,7 @@ public class Phone {
 
         soundPool = new SoundPool.Builder()
                 .setAudioAttributes(attributes)
+                .setMaxStreams(10)
                 .build();
         tapSound = soundPool.load(activity, R.raw.tap, 1);
         coinSound = soundPool.load(activity, R.raw.coin, 1);
@@ -67,7 +68,7 @@ public class Phone {
 
     public void spike(int duration, boolean sound) {
         if (User.getTapSoundsSetting() && sound) {
-            playSound("tap");
+            playTap();
         }
 
         if (User.getPhoneVibrationSetting()) {
@@ -112,28 +113,32 @@ public class Phone {
 
     public static void playSound(String name) {
 
-        int sound;
-        switch (name){
-            case "tap":
-                sound = tapSound;
-                break;
-             case "next_level":
-                sound = nextLevelSound;
-                break;
-            case "coin":
-                sound = coinSound;
-                break;
-            case "fail":
-                sound = failSound;
-                break;
-            default:
-                sound = 0;
+        if (User.getSoundEffectsSetting()) {
+
+            int sound;
+            switch (name){
+                case "next_level":
+                    sound = nextLevelSound;
+                    break;
+                case "coin":
+                    sound = coinSound;
+                    break;
+                case "fail":
+                    sound = failSound;
+                    break;
+                default:
+                    sound = 0;
+            }
+
+            if (sound != 0) {
+                soundPool.play(sound,1,1,1,0,1);
+            }
         }
 
-        if (sound != 0) {
-            soundPool.play(sound,1,1,1,0,1);
-        }
+    }
 
+    public static void playTap() {
+        soundPool.play(tapSound,1,1,1,0,1);
     }
 
 }

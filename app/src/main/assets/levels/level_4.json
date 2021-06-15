@@ -1,16 +1,15 @@
 {
-  "title": "Lesson 5: Zeros",
-  "teaser": "Delay notation",
-  "desc": "Good work!\n\nDelays are essential in haptapp. The taps themselves do not carry any useful information - they only slice the time into measurable chunks that actually carry the meaning. From now on, we will represent delays as zeros. There will be no rhythmical patterns with more than one zero for now. Try practicing this notation below.",
+  "title": "Level 5",
+  "teaser": "Why the Palace?",
+  "desc": "Once you have learned about the first three rooms of the palace, you probably noticed that each of them has a unique \"rhythm\" of vibrations. The ultimate goal of this course is to make you memorize the patterns of many rooms with the least possible effort. Later on, we will shorten the room names down to letters and we will have a whole alphabet of rhythms. This process takes some time and efforts, but it will give you the essential intuition behind reading text from haptic and other digital feedback. By using the memory palace technique, we shorten down the learning time from weeks down to days, or even hours.",
   "patterns": {
-    "1011": "I felt 1011",
-    "1101": "I felt 1101",
-    "10101": "I felt 10101",
-    "101": "I felt 101"
+    "1": "You are in the the Okay room",
+    "101": "You are the Tiger's Treasure room",
+    "11": "You are in the Embarrassed Elephant room"
   },
   "correctAnswer": "random",
   "failText": "Please try again!",
   "requiredStreak": 10,
-  "tapDuration": 64,
-  "tapDelay": 64
+  "tapDuration": 128,
+  "tapDelay": 128
 }

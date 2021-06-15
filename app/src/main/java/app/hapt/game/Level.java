@@ -22,6 +22,7 @@ public class Level {
     public String title;
     public String teaser;
     public String desc;
+    public String imagePath;
     public String correctAnswer;
     public int requiredStreak;
     public String failText;
@@ -48,6 +49,10 @@ public class Level {
             failText = levelData.getString("failText");
             tapDuration = levelData.getInt("tapDuration");
             tapDelay = levelData.getInt("tapDelay");
+            if (levelData.has("image")) {
+                imagePath = levelData.getString("image");
+            }
+
 
             get_patterns();
 

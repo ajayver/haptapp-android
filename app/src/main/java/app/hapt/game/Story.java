@@ -24,10 +24,12 @@ public class Story {
     private HashMap<String, Level>  initiateLevels(Activity activity) {
         HashMap<String, Level> levels = new HashMap<String, Level>();
         for (String fileName : fileNames) {
-            String levelName = fileName.replace(".json","");
-            Level level = new Level(activity, levelName);
-            levels.put(levelName, level);
-            Log.i("haptapplog",levelName);
+            if (fileName.startsWith("level_") && fileName.endsWith(".json")) {
+                String levelName = fileName.replace(".json","");
+                Level level = new Level(activity, levelName);
+                levels.put(levelName, level);
+                Log.i("haptapplog",levelName);
+            }
         }
         return levels;
     }

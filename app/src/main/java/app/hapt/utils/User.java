@@ -118,6 +118,7 @@ public class User {
 
     public static void reset(Activity activity) {
         User.setCompletedLevels("");
+        User.setRevealLevels(0);
         User.setStreak(0);
         activity.finish();
     }

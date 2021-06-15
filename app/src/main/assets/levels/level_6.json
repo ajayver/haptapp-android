@@ -1,16 +1,16 @@
 {
-  "title": "To be continued...",
-  "teaser": "More levels to come soon!",
-  "desc": "Please share any feedback with ajayver.com@gmail.com",
+  "title": "Level 7",
+  "teaser": "Japanese bricks",
+  "desc": "“This time after the Okay room we will go to the Tiger’s Treasure room and from here, we will go to the left.” \n\nYou enter the Japanese-looking room and you see a ninja who is breaking a brick with his bare hand and then proudly stands in a noble pose apparently waiting for you to take his photo.  \n\n“This is our Noble Ninja,” introduces the guide. “They say he is popular on Instagram”. \n\nThe guide turns back to the Tiger’s Treasure room and passes right through it towards the second door. \n\n“Beware of your nipples!” he said right before disappearing in the door. You follow behind him and before you know it, someone squeezes your nipple and runs away!  \n\n“That’s our Mean Monkey! It never wastes a chance to squeeze someone's nipple.” \n\nMeanwhile the Mean Monkey was running and jumping around with a mean face. \n\nYou and your guide go back to the Tiger’s Treasure room, then to the Okay room and outside of the palace. \n\n“Let’s see how well did you learn?”",
   "patterns": {
-    "11": "E (11)",
-    "101": "T (101)",
-    "1101": "A (1101)",
-    "1011": "N (1011)"
+    "111": "Icy Igloo",
+    "1101": "Albino Astronaut",
+    "10101": "Mean Monkey",
+    "1011": "Noble Ninja"
   },
   "correctAnswer": "random",
   "failText": "Please try again!",
-  "requiredStreak": 999,
-  "tapDuration": 16,
-  "tapDelay": 16
+  "requiredStreak": 10,
+  "tapDuration": 128,
+  "tapDelay": 128
 }

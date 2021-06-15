@@ -4,19 +4,24 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import org.greenrobot.eventbus.EventBus;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Iterator;
 import java.util.Map;
 
@@ -30,6 +35,8 @@ public class GameScreen extends AppCompatActivity {
 
     TextView levelTitle;
     TextView levelDesc;
+
+    ImageView levelImage;
 
     ProgressBar levelProgress;
 
@@ -68,8 +75,24 @@ public class GameScreen extends AppCompatActivity {
         levelDesc.setText(level.desc);
         levelProgress.setMax(level.requiredStreak);
         levelProgress.setProgress(0);
+        if (level.imagePath != null) {
+            setImage(level.imagePath);
+        }
+
         generate_buttons();
         newRound();
+    }
+
+    public void setImage(String imagePath) {
+        AssetManager assetManager = getAssets();
+        levelImage = (ImageView) findViewById(R.id.lesson_image);
+        try {
+            InputStream ims = assetManager.open(imagePath);
+            Drawable d = Drawable.createFromStream(ims, null);
+            levelImage.setImageDrawable(d);
+        } catch (IOException ex) {
+            Log.i("haptapplog", ex.getMessage());
+        }
     }
 
     public void generate_buttons() {
@@ -90,7 +113,7 @@ public class GameScreen extends AppCompatActivity {
 
     public void addButton(String pattern, String label) {
         Button button = new Button(this);
-        button.setTextSize(30);
+        button.setTextSize(22);
         button.setAllCaps(false);
         button.setText(label);
         button.setTag(pattern);

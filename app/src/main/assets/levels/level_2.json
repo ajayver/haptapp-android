@@ -1,15 +1,15 @@
 {
-  "title": "Lesson 3: The single signal",
-  "teaser": "The unary nature of haptapp",
-  "desc": "Great!\n\nIt seems like you've got a good grasp on the game's mechanics! Let's talk about terminology. Haptapp is an unary communication method, meaning that it is a language with only one letter/signal. And because there is only one kind of signal, its name doesn't really matter. Let's call it \"1\" for now. We will also refer to each signal as \"tap\".",
+  "title": "Level 3",
+  "teaser": "The Okay room",
+  "desc": "“Wow, you are good at hide and seek!” said your game buddy. \n\n“Now that you know the rules of moving inside the palace, I would like to show you around inside. I will stop the time, for now, so all the doors will be always open and we can walk freely inside.” \n\nThe guide opened the front door of the palace and you both enter it. You find yourself in a spacious white room with no furniture at all. There is one door on the left, one door on the right, and a large \"Okay\" sign on the wall in front. The emptiness of the room adds some echo to the guide's voice:  \n\n“Here we are! This is the first of many rooms you will see in the palace. The first room is a kind of reception and everything is normal here, no weird animals and random people like in the other rooms. We call it the \"Okay\" room and we stay here if we have nothing more to say. \n\nNext, I will show you the left room, but before that, let's have a quick round of hide and seek!”",
   "patterns": {
-    "1": "I felt a single tap (1)",
-    "11": "I felt a double tap (11)",
-    "111": "I felt a triple tap (111)"
+    "1": "You stayed in the Okay room",
+    "11": "You went to left room",
+    "101": "You went to the right room"
   },
   "correctAnswer": "random",
   "requiredStreak": 10,
   "failText": "Please try again!",
-  "tapDuration": 64,
-  "tapDelay": 64
+  "tapDuration": 128,
+  "tapDelay": 128
 }
