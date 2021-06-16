@@ -1,0 +1,16 @@
+{
+  "title": "Level 9",
+  "teaser": "Radioactive Lemons",
+  "desc": "“Wear this before you go further,” said the guide passing you a radiation suit. The Albino Astronaut is still sending you salutes, while you dress the yellow suit and head into the next room. It is full of red toxic barrels that emit green steam. Your suit glass is fogging inside and this doesn’t look like a safe place to be.\n“This is the radioactive room! We shouldn’t stay long here no matter how good your suit is!” said the guide and went into the left door. \nYou take of the suit helmet inside the next room, and you see a huge swimming pool filled with lemons and a bar near with hundreds of kinds of lemonades! People are wearing lemon hats and lemon soft toys are everywhere. \n“This is the lemon lounge! You can put your radioactive suit here, and let us have a drink, because we have something to celebrate!”\nThe guide ordered two lemonades at the bar.\n“This is the last room in this part of the palace. The right door in the radioactive room is empty, so you have been in all and every room to right of the Embarrassed Elephant! Cheers!”",
+  "patterns": {
+    "11011": "Radioactive Room",
+    "110111": "Lemon Lounge",
+    "1101011": "Paralyzing Pumpkin",
+    "11010101": "Juggling Janitor"
+  },
+  "correctAnswer": "random",
+  "failText": "Please try again!",
+  "requiredStreak": 10,
+  "tapDuration": 128,
+  "tapDelay": 128
+}
