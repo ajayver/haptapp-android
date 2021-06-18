@@ -1,8 +1,9 @@
 {
   "title": "Level 8",
   "teaser": "Juggling pumpkins",
-  "desc": "You are back in Albino Astronaut room with your guide. From here, you go to the right door and here you see a strong stream of water coming down from the ceiling that spins the large wooden water wheel. The wheel slowly rumbles and wobbles under the pressure of water.\n“The Wooden Water Wheel room!” the guide had to shout to cover the water noise. Let us go to the left from here!\nThe next room is quiet and looks like an exhibition with a single stand in the middle of the room. Quite a few people stand still, touching a Halloween pumpkin with struggling faces. \n“Everyone who touches this pumpkin, gets paralyzed, that’s why this is the room of a Paralyzing Pumpkin! There are no rooms further from here, so let’s turn back.”\nYou head back to the Wooden Water Wheel room and move through it to the right door. Once inside, you see a janitor who is juggling rugs and sanitizer bottles. \n“Ah, the Juggling Janitor room! Once he was juggling bleach, and that did not end up well, see those white stains on the ceiling? There are no more rooms further from here, so let’s get back to the Albino Astronaut room.”\n",
+  "desc": "You are back in Albino Astronaut room with your guide. From here, you go to the right door and here you see a strong stream of water coming down from the ceiling that spins the large wooden water wheel. The wheel slowly rumbles and wobbles under the pressure of water.\n“The Water Wheel room!” the guide had to shout to cover the water noise. Let us go to the left from here!\nThe next room is quiet and looks like an exhibition with a single stand in the middle of the room. Quite a few people stand still, touching a Halloween pumpkin with struggling faces. \n“Everyone who touches this pumpkin, gets paralyzed, that’s why this is the room of a Paralyzing Pumpkin! There are no rooms further from here, so let’s turn back.”\nYou head back to the Water Wheel room and move through it to the right door. Once inside, you see a janitor who is juggling rugs and sanitizer bottles. \n“Ah, the Juggling Janitor room! Once he was juggling bleach, and that did not end up well, see those white stains on the ceiling? There are no more rooms further from here, so let’s head back to the Albino Astronaut room.”\n",
   "patterns": {
+    "110101": "Water Wheel",
     "1101011": "Paralyzing Pumpkin",
     "11010101": "Juggling Janitor",
     "1101": "Albino Astranaut"
@@ -10,6 +11,6 @@
   "correctAnswer": "random",
   "failText": "Please try again!",
   "requiredStreak": 10,
-  "tapDuration": 128,
-  "tapDelay": 128
+  "tapDuration": 96,
+  "tapDelay": 96
 }

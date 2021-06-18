@@ -10,6 +10,6 @@
   "correctAnswer": "random",
   "requiredStreak": 10,
   "failText": "Please try again!",
-  "tapDuration": 128,
-  "tapDelay": 128
+  "tapDuration": 96,
+  "tapDelay": 96
 }

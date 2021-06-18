@@ -5,12 +5,13 @@
   "patterns": {
     "11011": "Radioactive Room",
     "110111": "Lemon Lounge",
+    "110101": "Water Wheel",
     "1101011": "Paralyzing Pumpkin",
     "11010101": "Juggling Janitor"
   },
   "correctAnswer": "random",
   "failText": "Please try again!",
   "requiredStreak": 10,
-  "tapDuration": 128,
-  "tapDelay": 128
+  "tapDuration": 96,
+  "tapDelay": 96
 }

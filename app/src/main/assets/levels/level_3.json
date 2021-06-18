@@ -1,7 +1,7 @@
 {
   "title": "Level 4",
   "teaser": "The first encounters",
-  "desc": "“Great game! Now let me show you the room on the left.” \n\n The guide floats to the left door and opens it. You enter the room and you see a big elephant that appears to be embarrassed by something. He stands in the corner of the room in clumsy attempts to cover himself with his large ears, but unfortunately those are much smaller than his body. \n\n“Nobody knows what this elephant is doing here or why he's embarrassed, but we call this room the Embarrassed Elephant room. You will pass it by often, so get used to the Elephant. \n\nNow let's get back to the Okay room so that I can show you what's behind the other door.” \n\nYou get back to the big white room and the guide floats slowly towards the right door. He opens it and you enter a dark room with the jungle wallpapers. There are a couple of dim torches lighting the moist room and you can hear some night crickets chirping. \n\n“As long as you keep him on the chain, he is not dangerous,” whispered the guide pointing at something in the corner of the room.  \n\nYou look through darkness and notice a big tiger sleeping near a large locked chest. \n\n“He is guarding his treasure. We don't know what's inside the chest, but we call it the \"Tiger's Treasure room\". Let's try to get back to the Okay room without waking him up.” \n\nYou both leave the Tiger's Treasure room, passing the Okay room on your way outside of the palace. \n\n“Whew, I always feel nervous around that tiger! Now that you have been in three rooms of the palace, let's see if it's more fun to play our game!”",
+  "desc": "“Great game! Now let me show you the room on the left.” \n\n The guide floats to the left door and opens it. You enter the room and you see a big elephant that appears to be embarrassed by something. He stands in the corner of the room in clumsy attempts to cover himself with his large ears, but unfortunately those are much smaller than his body. \n\n“Nobody knows what this elephant is doing here or why he's embarrassed, but we call this room the Embarrassed Elephant room. You will pass it by often, so get used to the Elephant. \n\nNow let's get back to the Okay room so that I can show you what's behind the other door.” \n\nYou get back to the big white room and the guide floats slowly towards the right door. He opens it and you enter a dark room with jungle wallpapers. There are a couple of dim torches lighting the moist room and you can hear some night crickets chirping. \n\n“As long as you keep him on the chain, he is not dangerous,” whispered the guide pointing at something in the corner of the room.  \n\nYou look through darkness and notice a big tiger sleeping near a large locked chest. \n\n“He is guarding his treasure. We don't know what's inside the chest, but we call it the \"Tiger's Treasure room\". Let's try to get back to the Okay room without waking him up.” \n\nYou both leave the Tiger's Treasure room, passing the Okay room on your way outside of the palace. \n\n“Whew, I always feel nervous around that tiger! Now that you have been in three rooms of the palace, let's see if it's more fun to play our game!”",
   "patterns": {
     "1": "You are in the the Okay room",
     "101": "You are the Tiger's Treasure room",
@@ -10,6 +10,6 @@
   "requiredStreak": "10",
   "correctAnswer": "random",
   "failText": "Please try again!",
-  "tapDuration": 128,
-  "tapDelay": 128
+  "tapDuration": 96,
+  "tapDelay": 96
 }

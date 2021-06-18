@@ -1,7 +1,7 @@
 {
   "title": "Level 2",
   "teaser": "Moving inside the palace",
-  "desc": "“Well done with the test! If you can distinguish between one, two, or three taps, you can easily learn how to navigate the palace!” said the floating guide. \n\n\"When you enter any room in this palace, you will see a door with a green light above it on the left side, and another door with a red light above it on the right side. Only one door can be open at a time and initially when you enter a room, the left door will always be open. After a brief moment, the right door will become green and open, while the left one will become red and locked. This sequence will always happen in every room of the palace unless we stop the time for maintenance. This means, that If I want to go to the left room, I must do it quickly while the left door is open. If I want to go to the right room, I will have to wait for a moment before I can get in. \n\nLet's try to play hide and seek! You stay here, and I will go inside. You will feel a vibration tap every time I cross a door. Try to guess which room did I hide in. We will repeat the game several times to make it a bit more challenging.”",
+  "desc": "“Well done with the test! If you can distinguish between one, two, or three taps, you can easily learn how to navigate the palace!” said the floating guide. \n\n\"When you enter any room in this palace, you will see a door with a green light above it on the left side, and another door with a red light above it on the right side. Only one door can be open at a time and initially when you enter a room, the left door will always be open. After a brief moment, the right door will become green and open, while the left one will become red and locked. This sequence will always happen in every room of the palace unless we stop the time for maintenance. This means, if I want to go to the left room, I must do it quickly while the left door is open. If I want to go to the right room, I will have to wait for a moment before I can get in. \n\nLet's try to play hide and seek! You stay here, and I will go inside. You will feel a vibration tap every time I cross a door. Try to guess which room did I hide in. We will repeat the game several times to make it a bit more challenging.”",
   "patterns": {
     "1": "You just entered the palace",
     "11": "You went to the left room",
@@ -10,6 +10,6 @@
   "correctAnswer": "random",
   "failText": "Please try again!",
   "requiredStreak": 10,
-  "tapDuration": 128,
-  "tapDelay": 128
+  "tapDuration": 96,
+  "tapDelay": 96
 }
