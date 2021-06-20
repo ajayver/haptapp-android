@@ -49,6 +49,16 @@ public class SettingsActivity extends AppCompatActivity {
         soundEffectsSwitch = (Switch) findViewById(R.id.sound_effects_switch);
         soundEffectsSwitch.setChecked(User.getSoundEffectsSetting());
 
+        resetProgress = (Button) findViewById(R.id.reset_progress_button);
+
+        resetProgress.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                resetProgressLongClick(v);
+                return false;
+            }
+        });
+
     }
 
     public void refreshUI() {
@@ -113,6 +123,11 @@ public class SettingsActivity extends AppCompatActivity {
         AreYouSureDialog dialog = new AreYouSureDialog();
         dialog.show(getSupportFragmentManager(),"Reset all progress");
     }
+    public void resetProgressLongClick(View view) {
+        Log.i("haptapplog", "Reset progress button long click");
+        User.setRevealLevels(999);
+    }
+
 
     public void tapSoundSwitchClick(View view) {
         Switch button = (Switch) findViewById(view.getId());

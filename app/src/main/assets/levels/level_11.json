@@ -1,0 +1,16 @@
+{
+  "title": "To be continued...",
+  "teaser": "Impossible to pass!",
+  "desc": "More levels to come soon! Please share any feedback with ajayver.com@gmail.com",
+  "patterns": {
+    "1111000110001101110001101110001010101": "Hello",
+    "1010110001010101000101010100010111": "Good",
+    "101010001101000101010001101": "Mama",
+    "1011110001011010100011": "Bye"
+  },
+  "correctAnswer": "random",
+  "failText": "Please try again!",
+  "requiredStreak": 999,
+  "tapDuration": 32,
+  "tapDelay": 32
+}

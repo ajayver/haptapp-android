@@ -44,6 +44,7 @@ public class GameScreen extends AppCompatActivity {
     Phone phone;
 
     private Level level;
+    private View logo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,10 @@ public class GameScreen extends AppCompatActivity {
         levelDesc = (TextView) findViewById(R.id.lesson_text);
         levelProgress = (ProgressBar) findViewById(R.id.progress_bar);
         buttonsLayout = (LinearLayout) findViewById(R.id.buttons_layout);
+
+        logo = findViewById(R.id.logo);
+
+        logo.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);
 
         phone = Phone.getInstance(this);
 

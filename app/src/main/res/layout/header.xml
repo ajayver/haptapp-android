@@ -7,10 +7,12 @@
     android:padding="10dp">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="App Logo"
         android:fontFamily="@font/proxon"
+        android:importantForAccessibility="auto"
         android:text="@string/app_name"
         android:textColor="@color/white"
         android:textSize="26sp"
@@ -20,22 +22,25 @@
         app:layout_constraintVertical_bias="0.483" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/beta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
         android:layout_marginBottom="2dp"
+        android:contentDescription="App logo badge"
         android:fontFamily="@font/proxon"
+        android:importantForAccessibility="no"
         android:text="beta"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/textView2"
-        app:layout_constraintStart_toEndOf="@+id/textView2" />
+        app:layout_constraintBottom_toBottomOf="@+id/logo"
+        app:layout_constraintStart_toEndOf="@+id/logo" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/rounded_button_light"
+        android:contentDescription="@string/title_activity_settings"
         android:onClick="settings_button_click"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

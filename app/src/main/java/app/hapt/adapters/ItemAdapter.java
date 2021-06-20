@@ -90,8 +90,10 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
         assert level != null;
         if (completedLevels.contains(levelName)) {
             viewHolder.getImage().setImageResource(android.R.drawable.btn_star_big_on);
+            viewHolder.getImage().setContentDescription("Active orange star");
         } else {
             viewHolder.getImage().setImageResource(android.R.drawable.btn_star_big_off);
+            viewHolder.getImage().setContentDescription("Grayed out star");
         }
 
         viewHolder.getTitle().setText(level.title);
