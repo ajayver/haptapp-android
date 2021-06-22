@@ -3,6 +3,7 @@ package app.hapt.game;
 import android.app.Activity;
 import android.util.Log;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -28,11 +29,12 @@ public class Level {
     public String failText;
     public int tapDuration;
     public int tapDelay;
+    public Boolean shuffle = false;
     public HashMap<String, String> patterns;
     public JSONObject levelData;
+    public int maxButtons = 4;
 
     public Level(Activity activity, String levelName) {
-
 
         this.name = levelName;
         User.setStreak(0);
@@ -51,6 +53,10 @@ public class Level {
             tapDelay = levelData.getInt("tapDelay");
             if (levelData.has("image")) {
                 imagePath = levelData.getString("image");
+            }
+
+            if (levelData.has("shuffle")) {
+                shuffle = levelData.getBoolean("shuffle");
             }
 
 
@@ -74,6 +80,9 @@ public class Level {
     }
 
     public String get_random_pattern() {
+        if (shuffle) {
+            get_patterns();
+        }
         Random random = new Random();
         Log.i("haptapplog", "get_random_pattern: " + patterns.keySet().toString());
         List<String> keys      = new ArrayList<String>(patterns.keySet());
@@ -87,14 +96,39 @@ public class Level {
 
             patternsJSON = levelData.getJSONObject("patterns");
 
+            if (patternsJSON.length() < maxButtons) {
+                maxButtons = patternsJSON.length();
+            }
+
             patterns = new HashMap<String, String>();
 
-            Iterator<String> temp = patternsJSON.keys();
-            while (temp.hasNext()) {
-                String key = temp.next();
+            int counter = 0;
+
+            JSONArray temp = patternsJSON.names();
+
+            Random random = new Random();
+
+            Boolean [] previousIndexes = new Boolean[patternsJSON.length()];
+
+            for (int i = 0; i < maxButtons; i++) {
+                int index = i;
+                if (shuffle != null && shuffle) {
+                    do {
+                        index = random.nextInt(patternsJSON.length());
+                    } while (previousIndexes[index] != null);
+
+                    previousIndexes[index] = true;
+                }
+                Log.i("haptapplog", "random index: " + index);
+                assert temp != null;
+                String key = temp.get(index).toString();
+                Log.i("haptapplog", "random key: " + key);
                 String value = patternsJSON.getString(key);
                 patterns.put(key, value);
+
             }
+
+            Log.i("haptapplog", "get_patterns: " + patterns.keySet().toString());
 
         } catch (JSONException e) {
             e.printStackTrace();

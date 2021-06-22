@@ -132,6 +132,11 @@ public class GameScreen extends AppCompatActivity {
         layoutParams.setMargins(0, 0, 0, 24);
         button.setLayoutParams(layoutParams);
 
+        if (level.shuffle && label.equals(getString(R.string.play_pattern_button_label))) {
+            button.setFocusable(true);
+            button.setFocusableInTouchMode(true);
+            button.requestFocus();
+        }
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -193,6 +198,7 @@ public class GameScreen extends AppCompatActivity {
     public void newRound() {
         Log.i("haptapplog", "New Round!");
         level.set_correct_answer();
+        generate_buttons();
         Log.i("haptapplog", "New round. Correct answer is " + level.correctAnswer);
 
     }
