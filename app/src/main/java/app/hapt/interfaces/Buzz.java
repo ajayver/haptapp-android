@@ -17,6 +17,8 @@ import com.neosensory.neosensoryblessed.NeosensoryBlessed;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 
+import java.util.Arrays;
+
 import app.hapt.utils.App;
 import app.hapt.utils.Broadcast;
 import app.hapt.activities.SettingsActivity;
@@ -181,6 +183,10 @@ public class Buzz {
                     if (pattern.charAt(i) == '1') {
                         batch++;
                         Log.i("haptapplog", "Batch: " + batch);
+                        if (batch > 2) {
+                            sendBatch(batch, amp);
+                            batch = 0;
+                        }
                     } else {
                         sendBatch(batch, amp);
                         batch = 0;
@@ -192,7 +198,9 @@ public class Buzz {
                     }
 
                 }
-                sendBatch(batch, amp);
+                if (batch > 0) {
+                    sendBatch(batch, amp);
+                }
 
         }
 
@@ -202,7 +210,7 @@ public class Buzz {
             for (int i = 0; i < batch; i++) {
                 commands = concatenate(commands, getSignal(amp));
             }
-            Log.i("haptapplog", "Sending a batch to Buzz: " + commands);
+            Log.i("haptapplog", "Sending a batch to Buzz: " + Arrays.toString(commands));
             blessedNeo.vibrateMotors(commands);
             try {
                 Thread.sleep(commands.length/4*16);
