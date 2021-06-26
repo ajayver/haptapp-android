@@ -1,16 +1,16 @@
 {
-  "title": "To be continued...",
-  "teaser": "Impossible to pass!",
-  "desc": "More levels to come soon! Please share any feedback with ajayver.com@gmail.com",
+  "title": "Level 12",
+  "teaser": "Yellow Crocodile",
+  "desc": "You are back in the Japanese Room watching the Ninja brushing away some brick dust. \n“Let’s look what’s on the right,” said the guide.\nYou enter the room to the right, and you see a huge King Kong beating his chest while screaming. He is so big, that it seems like he is doing things in slow motion. Tiny helicopters are flying around him like flies.\n“This is the King Kong room, don’t be scared, it’s safe here. Let’s carefully move on to the left from here.” Said the ball and moved closer to wall towards the left door.\nIn the next room you see a Crying Crocodile sitting like a human near a pond and crying so hard that he is very close to have hiccups. \n“The Crying Crocodile room. We are waiting till he calms down so he can tell us what happened and why is he crying so hard, but he never stops crying.\nYou head back to the King Kong room, where he is still screaming in slow motion. You walk across the room and behind the other door, you meet a Yellow Yeti. He has long yellow hair and big feet, although it looks like is just a white Yeti that painted his hair Yellow for some reason. He moves clumsy like there is a person inside a Yellow Yeti costume.\n“That’s it, the Yellow Yeti is the last room to the left from the Tiger’s Treasure room. You have only 4 room left to learn in the Palace!”\n",
   "patterns": {
-    "1111000110001101110001101110001010101": "Hello",
-    "1010110001010101000101010100010111": "Good",
-    "101010001101000101010001101": "Mama",
-    "1011110001011010100011": "Bye"
+    "1011": "Noble Ninja",
+    "101101": "King Kong",
+    "1011011": "Crying Crocodile",
+    "10110101": "Yellow Yeti"
   },
   "correctAnswer": "random",
   "failText": "Please try again!",
-  "requiredStreak": 999,
-  "tapDuration": 48,
-  "tapDelay": 48
+  "requiredStreak": 10,
+  "tapDuration": 96,
+  "tapDelay": 96
 }
