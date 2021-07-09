@@ -1,0 +1,25 @@
+{
+  "title": "Level 15",
+  "teaser": "First words",
+  "desc": "More levels to come soon! Want to contribute or have a feedback? Contact ajayver.com@gmail.com and subscribe for news at https://haptapp.com",
+  "patterns": {
+    "1111000110001101110001101110001010101": "Hello",
+    "1010110001010101000101010100010111": "Good",
+    "101010001101000101010001101": "Mama",
+    "1011110001011010100011": "Bye",
+    "101000111110001110001111": "This",
+    "10110101000101010100011101": "You",
+    "1010100011": "Me",
+    "1010110001010101": "Go",
+    "11011000111010001011": "Run",
+    "11111000110001101100011": "Here",
+    "11111000111": "Hi",
+    "1111000110100010110101": "Say"
+  },
+  "shuffle": true,
+  "correctAnswer": "random",
+  "failText": "Please try again!",
+  "requiredStreak": 999,
+  "tapDuration": 48,
+  "tapDelay": 48
+}
